@@ -1,6 +1,3 @@
-Here’s a well-structured and detailed README file for your Luna Voice Assistant project:
-
-```md
 # Luna Voice Assistant
 
 Luna is a Python-based personal voice assistant designed to make your life easier by assisting with various tasks like sending emails, playing music, fetching weather reports, browsing the web, and sending WhatsApp messages.
@@ -58,6 +55,7 @@ Luna is a Python-based personal voice assistant designed to make your life easie
 - Integration with Google Contacts API for dynamic contact retrieval.
 - GUI for more user-friendly interactions.
 - Smarter error handling and response systems.
+- Adding machine learning algorithms for emotional content.
 
 ## Contributing
 Feel free to fork this project, open issues, or create pull requests. Any contributions are welcome!
@@ -71,5 +69,5 @@ For any questions or suggestions, feel free to contact me at:
 ---
 
 *Thank you for using Luna!*
-```
+
 
