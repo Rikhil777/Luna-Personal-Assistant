@@ -23,7 +23,7 @@ contacts = {
     'sister' : 'XXXXXXXXXXX',
     'mom' : 'XXXXXXXXXXX',
     'dad' : 'XXXXXXXXXXX',
-    'friend' : '9342055412'
+    'friend' : 'XXXXXXXXX'
 }
 
 
@@ -66,7 +66,7 @@ def get_weather(city):
     
 def whatsapp(reciptent, msg):
     speak("Openning WhatsApp")
-    os.startfile("C:\\Users\\kakan\\OneDrive\\Desktop\\WhatsApp.lnk")
+    os.startfile("Path for whatsapp in your dvice")
     time.sleep(5)
     
     pyautogui.hotkey('ctrl', 'f')
@@ -136,7 +136,7 @@ if __name__ == "__main__":
             print("Playing Music...")
             
             speak("Playing Music")
-            music_dir = "C:\\Users\\kakan\\OneDrive\\Documents\\Luna\\Songs"
+            music_dir = "<path for songs directory in your device>"
             songs = os.listdir(music_dir)
             
             speak("Which song would you like to play?")
@@ -168,7 +168,7 @@ if __name__ == "__main__":
         elif 'open vs code' in query:
             print("Openning...")
             speak("Openning...")
-            code_path = "C:\\Users\\kakan\\AppData\\Local\\Programs\\Microsoft VS Code\\Code.exe"
+            code_path = "path for the vs code in you device"
             os.startfile(code_path)
             
         elif 'email' in query:
